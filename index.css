@@ -4,6 +4,7 @@ body {
     height: 100vh;
     background-color: #0D192C;
 }
+
 .container {
     background-color: #15263F;
     width: 350px;
@@ -17,6 +18,7 @@ body {
     border-radius: 8px;
     width: 100%;
 }
+
 h1 {
     color: white;
     font-weight: 600;
@@ -25,11 +27,13 @@ h1 {
     padding-top: 24px;
     
 }
+
 h2 {
     display: inline;
     color: #00FFF8;
     
 }
+
 p {
     font-family: 'Outfit';
     font-weight: 300;
@@ -37,19 +41,36 @@ p {
     line-height: 26px;
     color:  #8BACD9;
     display: inline;
-    padding-top: 16px;
+    gap: 16px;
+    
 }
+
 span { 
     color: white;
 }
+
 .border {
     background-color: #2E405A;;
     height: 1px;
     width: 100%;
     border:1px solid #8BACD9;
 }
+
 .logo {
     display: flex;
     justify-content: space-between;
+    
+}
+
+
+.lastp {
+    line-height: 36px;
+    font-size: 16px;
+    margin-left: 16px;
+
+}
+
+footer {
+    display: flex;
     
 }
