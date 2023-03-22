@@ -12,6 +12,9 @@ body {
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
     margin: auto;
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 #img {
@@ -63,7 +66,7 @@ span {
 }
 
 
-.lastp {
+.lastp  {
     line-height: 36px;
     font-size: 16px;
     margin-left: 16px;
@@ -72,5 +75,6 @@ span {
 
 footer {
     display: flex;
+    margin-block-end: 25px;
     
 }
